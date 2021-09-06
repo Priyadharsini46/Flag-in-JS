@@ -49,7 +49,7 @@ countriesInfo.forEach((element) => {
   flag.innerHTML = ` 
   <img src=${element.flag}>
    <div class="content">
-  <h2>${element.name}</h2>
+  <h3>${element.name}</h3>
   <p> <span>Population</span>: ${element.population}</p>
   <p> <span>Religion</span>: ${element.region}</p>
   <p> <span>Capital</span>: ${element.capital}</p>`;
